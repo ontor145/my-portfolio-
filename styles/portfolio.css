@@ -79,14 +79,17 @@ nav a{
 }
 
 /* main section styles */
-
+main{
+    max-width: 1340px;
+    border-radius: 10px;
+    background-color: #FFF8F3;
+}
 
 
 /* about section styles */
 .about {
     padding: 130px;
-    border-radius: 10px;
-    background: #FFF8F3;
+    
     margin: 130px 0;
 }
 
@@ -109,5 +112,24 @@ font-size: 18px;
 font-weight: 400;
 line-height: 30px; 
 }
+.about-info-container{
+    display: flex;
+   justify-content: space-around;
+
+}
+.about-info{
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
